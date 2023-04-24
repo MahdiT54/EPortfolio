@@ -168,7 +168,7 @@ nav {
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
+  box-shadow: 0 16px 14px rgba(0, 0, 0, 0.16);
   margin-bottom: 28px;
   animation: animate-profile-picture 800ms 200ms backwards;
 }
@@ -188,8 +188,8 @@ nav {
 .about-me__picture {
   width: 100%;
   /* Improving my own picture */
-  transform: scale(1.9);
-  padding-top: 16px;
+  transform: scale(1.3);
+  padding-top: 10px;
   padding-right: 4px;
 }
 
@@ -424,12 +424,12 @@ footer {
   height: 100px;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.16);
 }
 
 .footer__logo--img {
+  margin-top: 12px;
   width: 100%;
-  scale: 1.097;
+  scale: .85;
 }
 
 .footer__social--link,
